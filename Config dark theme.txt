@@ -1,0 +1,10 @@
+Dark theme
+
+SSMS 18
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE
+
+Depending on SSMS version, locate and open the configuration file (ssms.pkgundef) in the text editor:
+
+Once the file is opened in the text editor, scroll down and find the section 
+of the code under the “Remove Dark theme” heading, add “//” (without quotation marks) at the
+ beginning of the first line like shown below, and save the file:
